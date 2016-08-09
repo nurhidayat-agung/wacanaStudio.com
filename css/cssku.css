@@ -1,0 +1,81 @@
+#bg{
+	background-position: fixed;
+	background-image: url(../img/home/bg.png);
+	height: 100vh;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: #000;
+}
+
+
+body{
+	background-color: #000;
+	background-size : cover;
+}
+
+
+#logo{
+	align-content: center;
+	width: 300px;
+	height: 300px;
+	border: none;
+}
+#logo:hover{
+	background-color: yellow;
+	border: none;
+	opacity: 0.5;
+}
+#logo:active, #logo:target{
+	border: none;
+}
+
+#gal:hover, #wd:hover, #sf:hover, #lp:hover, #loc:hover, #con:hover, #us:hover, #tea:hover {
+	opacity: 1;
+    transform: translateX(0px);
+	transform:scale(1,1);
+	display: block;
+    transform: scale(1);
+    transition: all 1.0s ease-in-out;
+    background-color: white;
+}
+#con_logo{
+	text-align: center;
+	border: none;
+}
+#tea{
+	margin : 0;
+}
+#loc{
+	margin :0;
+}
+#wd,#sf,#lp,#loc,#gal,#con,#us,#tea{
+	display: none;
+}
+
+/*
+#logo{
+
+	
+}*/
+
+/*
+.jajal{	
+	align-content: center;
+	position: absolute;
+	left: 40%;}
+.baru{
+	animation: mymove 5s;
+}
+@keyframes mymove {
+    from {
+    align-content: center;
+	position: absolute;
+	left: 40%;}
+    to {  
+            left: 250px;
+            opacity: 0.5;
+            height: 150px;
+            width: 150px;
+            position: fixed;}
+}*/
