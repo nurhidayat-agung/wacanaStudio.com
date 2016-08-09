@@ -1,0 +1,59 @@
+body{
+	background: #999;
+}
+
+.header{
+	height:120px;
+	background:url('../../img/bg.jpg');
+}	
+
+.header h1{
+	background:#000;
+	opacity:.6;
+	font-family:arial;
+	color:#fff;
+	float:right;
+	padding:10px;
+	border-radius:15px;
+}
+
+.menu{
+	border-top:5px solid #dd6600;
+	background:#fff;
+}
+
+.menu ul li a{
+	padding:0;
+	margin:12px 20px;
+	border-radius:0
+}
+
+.menu ul li a:hover{
+	background:#fff;
+	margin:10px 20px;
+	border-bottom:2px solid #dd6600;
+}
+
+.content{
+	background:#fff;
+	text-align:center;
+}
+
+.content h2{
+	color:#ad0021;
+}
+
+.content p, .box{
+	text-align:justify;
+	margin:20px 10px;
+	padding:20px;
+	background: #dedede;
+	border-radius:10px;
+	height:340px;
+}
+
+.footer{
+	border-top:5px solid #dd6600;
+	background:#000;
+}
+
